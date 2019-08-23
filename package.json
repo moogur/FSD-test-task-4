@@ -1,0 +1,36 @@
+{
+  "name": "fsd-test-task-4",
+  "version": "1.0.0",
+  "description": "test task number 4 from full stack development",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development webpack-dev-server --mode development --open --inline --hot",
+    "prod": "NODE_ENV=production webpack --mode production",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Alexey Dvoretsky",
+  "devDependencies": {
+    "@types/jquery": "^3.3.31",
+    "awesome-typescript-loader": "^5.2.1",
+    "clean-webpack-plugin": "=1.0.0",
+    "css-loader": "^3.2.0",
+    "gh-pages": "^2.1.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "pug": "^2.0.4",
+    "pug-html-loader": "^1.1.5",
+    "sass-loader": "^7.3.1",
+    "tslint": "^5.19.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "reset-css": "^4.0.1",
+    "typescript": "^3.5.3"
+  }
+}

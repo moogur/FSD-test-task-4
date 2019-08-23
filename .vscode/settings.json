@@ -1,0 +1,13 @@
+{
+  "tslint.configFile": ".vscode/tslint.json",
+  "tslint.jsEnable": true,
+  "files.exclude": {
+    "node_modules": true,
+    "package.json": true,
+    "package-lock.json": true,
+    "tsconfig.json": true,
+    ".gitignore": true,
+    "*.md": true,
+    ".awcache": true
+  }
+}
