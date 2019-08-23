@@ -3,9 +3,9 @@
   "tslint.jsEnable": true,
   "files.exclude": {
     "node_modules": true,
+    "jest.config.js": true,
     "package.json": true,
     "package-lock.json": true,
-    "tsconfig.json": true,
     ".gitignore": true,
     "*.md": true,
     ".awcache": true

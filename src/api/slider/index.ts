@@ -1,1 +1,4 @@
-$('#root').html('Привет мир');
+// Style
+import './style/slider.sass';
+
+import { SliderView } from './view';

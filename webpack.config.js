@@ -13,7 +13,10 @@ const PUG_PAGES = fs
 const TS = {
   test: /\.ts$/i,
   use: [{
-    loader: 'awesome-typescript-loader'
+    loader: 'awesome-typescript-loader',
+    options: {
+      configFileName: './.vscode/tsconfig.json'
+    }
   }]
 };
 
